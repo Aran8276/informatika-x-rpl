@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="flex justify-center bg-sky-400 h-16">
+      <div class="self-center">
+        <marquee class="text-3xl font-bold text-red-500 w-screen"
+          >Judul Website</marquee
+        >
+      </div>
+    </header>
+    <main class="mt-8 mx-12">
+      <div class="flex space-x-12">
+        <div class="text-justify w-[38rem]">
+          <h1 class="text-2xl text-center font-bold">Pengertian HTML</h1>
+          <p class="mt-2">
+            HTML adalah singkatan dari Hypertext Markup Language. Ini adalah
+            bahasa markup standar untuk membuat halaman web. HTML menggunakan
+            simbol tertentu yang disebut tag, yang akan diterjemahkan oleh
+            browser menjadi halaman web. Dengan tag-tag ini, Anda dapat
+            membangun struktur halaman, menambahkan konten seperti teks dan
+            gambar, serta memberikan format dan tata letak pada website.
+          </p>
+          <p class="mt-12">
+            HTML (Hypertext Markup Language) merupakan fondasi dasar dari sebuah
+            halaman web. Bahasa ini memungkinkan kita untuk membuat dan
+            strukturisasi konten pada internet. Setiap elemen dalam HTML dikenal
+            sebagai tag, yang memberikan instruksi kepada web browser tentang
+            cara menampilkan konten. Misalnya, tag p digunakan untuk paragraf, a
+            untuk hyperlink, dan img untuk gambar. Dengan menggunakan HTML,
+            pengembang web dapat mengatur teks, gambar, dan elemen lainnya ke
+            dalam format yang terstruktur dan mudah diakses oleh pengguna di
+            seluruh dunia.
+          </p>
+        </div>
+
+        <div class="text-justify w-[38rem]">
+          <h1 class="text-2xl text-center font-bold">
+            Jenis-Jenis Tag HTML & Contoh Umumnya
+          </h1>
+          <p class="mt-2">
+            Elemen HTML terdiri dari tag pembuka, konten, dan tag penutup.
+            Misalnya, h1 Konten Heading h1 di mana h1 adalah tag pembuka,
+            “Konten Heading” adalah konten, dan h1 adalah tag penutup. Ada juga
+            elemen kosong yang tidak memiliki konten dan tag penutup, seperti br
+            untuk baris baru. Elemen-elemen ini digunakan untuk memformat dan
+            mengatur konten pada halaman web
+          </p>
+          <p class="mt-3">Contoh-contoh umum HTML tag terdiri seperti:</p>
+          <div class="grid grid-cols-4 ml-3 mt-2">
+            <li>HTML</li>
+            <li>Head</li>
+            <li>Body</li>
+            <li>Title</li>
+            <li>H1</li>
+            <li>H2</li>
+            <li>H3</li>
+            <li>H4</li>
+            <li>H5</li>
+            <li>H6</li>
+            <li>P</li>
+            <li>A</li>
+            <li>Img</li>
+            <li>Li</li>
+            <li>Ul</li>
+            <li>Ol</li>
+            <li>Table</li>
+            <li>Tr</li>
+            <li>Td</li>
+            <li>Th</li>
+            <li>Div</li>
+            <li>Span</li>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex space-x-12 mt-12">
+        <div class="text-justify w-[38rem]">
+          <h1 class="text-2xl text-center font-bold">Contoh Penulisan HTML</h1>
+          <pre class="relative right-32 mt-12">
+              &lt;!DOCTYPE html&gt;
+              &lt;html lang="en"&gt;
+              &lt;head&gt;
+                &lt;meta charset="UTF-8" /&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+                &lt;title&gt;Document&lt;/title&gt;
+              &lt;/head&gt;
+
+              &lt;h1&gt;Hello World menggunakan Heading 1 &lt;/h1&gt;
+              &lt;h2&gt;Hello World menggunakan Heading 2 &lt;/h2&gt;
+              &lt;h3&gt;Hello World menggunakan Heading 3 &lt;/h3&gt;
+
+              &lt;p&gt;Hello World menggunakan Paragraf &lt;/p&gt;
+
+              &lt;a href="#"&gt;Hello World menggunakan Link/A &lt;/a&gt;
+
+              &lt;p 
+                style="color: red;"
+                &gt;Hello World menggunakan paragraf & diganti warnanya 
+              &lt;/p&gt;
+
+              &lt;p&gt; Contoh Gambar/Img: &lt;/p&gt;
+              &lt;img src="mobil.png" style="height: 100px"/&gt;
+
+              &lt;p&gt; Contoh Table: &lt;/p&gt;
+              &lt;table border="1"&gt;
+                &lt;tr&gt;
+                 &lt;th&gt;Company&lt;/th&gt;
+                 &lt;th&gt;Contact&lt;/th&gt;
+                 &lt;th&gt;Country&lt;/th&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                 &lt;td&gt;Alfreds Futterkiste&lt;/td&gt;
+                 &lt;td&gt;Maria Anders&lt;/td&gt;
+                 &lt;td&gt;Germany&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                 &lt;td&gt;Centro comercial Moctezuma&lt;/td&gt;
+                 &lt;td&gt;Francisco Chang&lt;/td&gt;
+                 &lt;td&gt;Mexico&lt;/td&gt;
+                &lt;/tr&gt;
+              &lt;/table&gt;
+
+              
+
+
+          </pre>
+        </div>
+
+        <div class="text-justify w-[38rem]">
+          <h1 class="text-2xl text-center font-bold">Contoh Output</h1>
+          <div class="ml-5">
+            <iframe src="iframe.htm" class="w-[40rem] h-screen"></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
